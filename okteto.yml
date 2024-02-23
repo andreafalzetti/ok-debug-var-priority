@@ -1,3 +1,3 @@
 deploy:
   - echo $MY_VAR > test.txt
-  - cat test.txt | md5
+  - cat test.txt | md5sum
