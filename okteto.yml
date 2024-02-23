@@ -1,0 +1,3 @@
+deploy:
+  - echo $MY_VAR > test.txt
+  - cat test.txt
