@@ -1,3 +1,4 @@
 deploy:
   - echo $MY_VAR > test.txt
+  - export MY_VAR=bogota
   - cat test.txt | md5sum
