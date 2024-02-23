@@ -1,5 +1,12 @@
 deploy:
-  - export MY_VAR=bogota
-  - echo $MY_VAR
-  - echo $MY_VAR > test.txt
-  - cat test.txt | md5sum
+  - |
+    export MY_VAR=medellin
+    echo $MY_VAR
+    echo $MY_VAR > test.txt
+    cat test.txt | md5sum
+   
+  # Does not work
+  #- export MY_VAR=bogota
+  #- echo $MY_VAR
+  #- echo $MY_VAR > test.txt
+  #- cat test.txt | md5
