@@ -1,6 +1,6 @@
 deploy:
   - |
-    export MY_VAR=medellin
+    export MY_VAR2=medellin
     echo $MY_VAR
     echo $MY_VAR > test.txt
     cat test.txt | md5sum
