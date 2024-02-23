@@ -1,5 +1,5 @@
 variables:
-  MY_VAR=medellin
+  MY_VAR: medellin
 
 deploy:
   - |
