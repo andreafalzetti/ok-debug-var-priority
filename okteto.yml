@@ -1,5 +1,5 @@
-#variables:
-#  MY_VAR: manifest
+variables:
+  MY_VAR: manifest
 
 deploy:
   - |
